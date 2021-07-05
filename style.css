@@ -16,6 +16,7 @@
 #Icon {
     width: 300px;
     text-align: center;
+    cursor: pointer;
 }
 
 #Icon img {
@@ -72,6 +73,10 @@
     border-radius: 30px;
     font-size: 34px;
     font-weight: bold;
+}
+
+.myDetails h1:hover {
+    color: black;
 }
 
 .myDetails h2 {
@@ -143,12 +148,16 @@
     text-align: center;
     font-size: 52px;
     font-weight: bold;
-    background-image: linear-gradient( 45deg, #ff3737, #ff0bea);
+    background-image: linear-gradient( 45deg, #2c55d0, #ff0bea);
     width: 453px;
     margin: auto;
     justify-content: center;
     border-radius: 30px;
     color: #000000;
+}
+
+.blog-area h1:hover {
+    color: white;
 }
 
 .all-box {
@@ -166,12 +175,24 @@
     border-radius: 12px;
 }
 
+.all-box a:hover {
+    background-image: linear-gradient( 45deg, #088a03, #04c704);
+}
+
 .services-box {
     width: 350px;
     height: 416px;
     margin: 79px 5px 0px 0px;
     background: #f9f9f9;
     border-radius: 15px;
+    cursor: copy;
+}
+
+.services-box:hover {
+    box-shadow: 1px 8px 18px #000000;
+    border: 2px solid #00bf29;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 #title {
@@ -183,6 +204,10 @@
     background-image: linear-gradient( 93deg, #d4d4d412, #827e8105);
     border-radius: 10px;
     color: #adadad;
+}
+
+#title h2:hover {
+    color: #cc00ca;
 }
 
 #header b {
@@ -245,4 +270,49 @@
     width: 40px;
     margin: -14px -9px -6px -2px;
     height: 30px;
+}
+
+
+/* .................About-US..............  */
+
+#about-us {
+    background-image: url(images/dream-bg.png);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: right;
+}
+
+#section-color {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( 90deg, #4204fd, #ff000026);
+}
+
+#section-color h1 {
+    font-size: 81px;
+    text-align: center;
+    padding-top: 21px;
+    color: #4c4c4c;
+}
+
+.error h3 {
+    color: #cccccc;
+    text-align: center;
+    margin-top: 176px;
+    font-size: 30px;
+}
+
+#footer {
+    box-shadow: 0px -7px 20px 0px #8c8c8c;
+    width: 100%;
+    height: 116px;
+    background-image: linear-gradient( 45deg, #2c55d0, #ff008d);
+}
+
+#footer p {
+    color: thistle;
+    text-align: center;
+    padding: 45px;
 }
