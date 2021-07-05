@@ -131,10 +131,16 @@
 #services {
     width: 100%;
     height: 650px;
+    background-image: linear-gradient( 90deg, #000088, #3030f8);
+    display: flex;
+}
+
+#services-color {
+    width: 100%;
+    height: 100%;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    display: flex;
 }
 
 .blog-area {
@@ -157,7 +163,7 @@
 }
 
 .blog-area h1:hover {
-    color: white;
+    color: #c3c3c3;
 }
 
 .all-box {
@@ -166,7 +172,7 @@
 
 .all-box a {
     text-decoration: none;
-    background: #00bf00;
+    background-image: linear-gradient( 45deg, #e8085b, #ff00ef);
     width: 100%;
     text-align: center;
     padding: 11px 104px;
@@ -183,16 +189,18 @@
     width: 350px;
     height: 416px;
     margin: 79px 5px 0px 0px;
-    background: #f9f9f9;
+    background-image: linear-gradient( 45deg, #0b1025, #031986);
     border-radius: 15px;
     cursor: copy;
+    color: white;
 }
 
 .services-box:hover {
-    box-shadow: 1px 8px 18px #000000;
+    box-shadow: inset 0px 403px 18px #000000;
     border: 2px solid #00bf29;
     transform: scale(1.1);
     transition: 0.5s;
+    color: white;
 }
 
 #title {
@@ -276,25 +284,25 @@
 /* .................About-US..............  */
 
 #about-us {
-    background-image: url(images/dream-bg.png);
+    background-image: linear-gradient( 90deg, #000088, #3030f8);
     height: 600px;
     width: 100%;
-    background-repeat: no-repeat;
     overflow: hidden;
-    background-position: right;
 }
 
 #section-color {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient( 90deg, #4204fd, #ff000026);
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 #section-color h1 {
     font-size: 81px;
     text-align: center;
     padding-top: 21px;
-    color: #4c4c4c;
+    color: #dcdcdc;
 }
 
 .error h3 {
