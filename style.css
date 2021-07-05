@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topnav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    box-shadow: 0px 5px 20px 0px #616161;
+    background-image: linear-gradient( 90deg, #0707b1, #0000df);
+}
+
+#Icon {
+    width: 300px;
+    text-align: center;
+}
+
+#Icon img {
+    margin: 18px 0px;
+}
+
+#nav-bar {
+    width: 658px;
+    text-align: center;
+    float: right;
+}
+
+.nav-itam {}
+
+.topnav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 35px 25px;
+    color: #fff;
+    font-size: 19px;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0px -3px;
+}
+
+.topnav a:hover {
+    background-image: linear-gradient( 33deg, rgb(184, 93, 255) 0%, rgb(255, 69, 69) 100%);
+    border-radius: 0 0 20px 20px;
+}
+
+
+/* ..........Home Design.............. */
+
+#home {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient( 90deg, #020286, #3131f9);
+    display: flex;
+}
+
+.myDetails,
+.mypng {
+    width: 40%;
+    padding-left: 20px;
+    color: white;
+}
+
+.myDetails h1 {
+    text-align: center;
+    padding: 0px 20px;
+    background-image: linear-gradient( 86deg, #ff008d, #ff00f7);
+    margin: 67px 0px 40px 500px;
+    width: 180px;
+    border-radius: 30px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.myDetails h2 {
+    font-size: 43px;
+    margin: 76px 0px 54px 57px;
+    color: rgb(222, 222, 222);
+}
+
+.myDetails h3 {
+    font-size: 21px;
+    margin: 0px 0px 14px 50px;
+}
+
+.myDetails p {
+    width: 413px;
+    word-break: break-all;
+    margin-left: 40px;
+    background-image: linear-gradient( 90deg, #ff008d, #ff00f7);
+    padding: 20px;
+    border-radius: 42px;
+    color: #f8f8f8;
+}
+
+.button {
+    margin: 79px 0px 0px 135px;
+}
+
+.button a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 10px 36px;
+    background-image: linear-gradient( 122deg, #ff0bea, #ff8100ed);
+    font-size: 19px;
+    border-radius: 26px;
+}
+
+.button a:hover {
+    background-image: linear-gradient( 156deg, blue, #ff0bea);
+    transition: 1s;
+    box-shadow: 0px 1px 20px 0px rgb(255, 255, 255);
+}
+
+.mypng img {
+    width: 800px;
+    height: auto;
+}
